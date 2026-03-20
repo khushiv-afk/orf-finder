@@ -5,6 +5,7 @@ def find_orfs(dna):
 
     orfs = []
 
+    
     for i in range(len(dna) - 2):
         codon = dna[i:i+3]
 
